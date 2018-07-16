@@ -7,14 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15A1220FAC4E46F43962DA4B /* Pods_MathBaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DA8F7BA49D24C11990B467B /* Pods_MathBaseTests.framework */; };
+		2E64AD935D8A8FDFCECCF91E /* Pods_MathBaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBBDBCFE0C03A25690420C82 /* Pods_MathBaseUITests.framework */; };
+		35D83B0BC5CFFFBA49D51F52 /* Pods_MathBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805A17179B7128FE9E7DDFA9 /* Pods_MathBase.framework */; };
+		CF16EAE42040CBE2002D697B /* SubjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16EAE32040CBE2002D697B /* SubjectCollectionViewCell.swift */; };
+		CF16EAE62040D04E002D697B /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16EAE52040D04E002D697B /* Subject.swift */; };
+		CF16EAE82040D0CC002D697B /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16EAE72040D0CC002D697B /* Action.swift */; };
+		CF16EAEA2040D426002D697B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16EAE92040D426002D697B /* Constants.swift */; };
+		CF16EAED2040D65E002D697B /* SubjectCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16EAEC2040D65E002D697B /* SubjectCollectionViewController.swift */; };
+		CF16EAEE2040D724002D697B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16EAE92040D426002D697B /* Constants.swift */; };
+		CF16EAEF2040D726002D697B /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16EAE52040D04E002D697B /* Subject.swift */; };
+		CF16EAF02040D72A002D697B /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16EAE72040D0CC002D697B /* Action.swift */; };
+		CF16EAF12040D72C002D697B /* SubjectCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16EAE32040CBE2002D697B /* SubjectCollectionViewCell.swift */; };
+		CF16EAF22040D72E002D697B /* SubjectCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16EAEC2040D65E002D697B /* SubjectCollectionViewController.swift */; };
 		CF2D01742004CEC00037A634 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2D01732004CEC00037A634 /* AppDelegate.swift */; };
-		CF2D01762004CEC00037A634 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2D01752004CEC00037A634 /* ViewController.swift */; };
+		CF2D01762004CEC00037A634 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2D01752004CEC00037A634 /* HomeScreenViewController.swift */; };
 		CF2D01792004CEC10037A634 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2D01772004CEC10037A634 /* Main.storyboard */; };
 		CF2D017C2004CEC10037A634 /* MathBase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF2D017A2004CEC10037A634 /* MathBase.xcdatamodeld */; };
 		CF2D017E2004CEC10037A634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF2D017D2004CEC10037A634 /* Assets.xcassets */; };
 		CF2D01812004CEC10037A634 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF2D017F2004CEC10037A634 /* LaunchScreen.storyboard */; };
-		CF2D018C2004CEC10037A634 /* MathBaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2D018B2004CEC10037A634 /* MathBaseTests.swift */; };
 		CF2D01972004CEC10037A634 /* MathBaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2D01962004CEC10037A634 /* MathBaseUITests.swift */; };
+		CF323DD220276B1D001AB760 /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF323DD120276B1D001AB760 /* Fraction.swift */; };
+		CF323DD5202843B1001AB760 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF323DD4202843B1001AB760 /* Math.swift */; };
+		CF323DD62028CAE4001AB760 /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF323DD120276B1D001AB760 /* Fraction.swift */; };
+		CF323DD7202F261D001AB760 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF323DD4202843B1001AB760 /* Math.swift */; };
+		CF616D9D20415E980045E039 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2D01752004CEC00037A634 /* HomeScreenViewController.swift */; };
+		CF616DA0204177A50045E039 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF616D9F204177A50045E039 /* ActionViewController.swift */; };
+		CF616DA2204179580045E039 /* AddItemUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF616DA1204179580045E039 /* AddItemUIButton.swift */; };
+		CF616DA620417CCE0045E039 /* ActionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF616DA520417CCE0045E039 /* ActionCollectionViewCell.swift */; };
+		CF616DA720418ED00045E039 /* ActionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF616D9F204177A50045E039 /* ActionViewController.swift */; };
+		CF616DA820418ED40045E039 /* AddItemUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF616DA1204179580045E039 /* AddItemUIButton.swift */; };
+		CF616DA920418ED60045E039 /* ActionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF616DA520417CCE0045E039 /* ActionCollectionViewCell.swift */; };
+		CF616DAB2041A3220045E039 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF616DAA2041A3220045E039 /* CloseButton.swift */; };
+		CF616DAC2041A6DD0045E039 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF616DAA2041A3220045E039 /* CloseButton.swift */; };
+		CF9F325E2078D28100DFF7E3 /* AddEntityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9F325D2078D28100DFF7E3 /* AddEntityViewController.swift */; };
+		CFAC9E7220165BFD00FFF9F9 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC9E7120165BFD00FFF9F9 /* Vector.swift */; };
+		CFAC9E7420165E5100FFF9F9 /* VectorOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC9E7320165E5100FFF9F9 /* VectorOperation.swift */; };
+		CFAC9E7720167B0300FFF9F9 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC9E7620167B0300FFF9F9 /* Matrix.swift */; };
+		CFAC9E7920167C7F00FFF9F9 /* MatrixOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC9E7820167C7F00FFF9F9 /* MatrixOperation.swift */; };
+		CFAC9E8220168B4F00FFF9F9 /* PolynomialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2D01B32005818A0037A634 /* PolynomialTests.swift */; };
+		CFAC9E8420168B7800FFF9F9 /* Polynomial.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2D01A52004CF270037A634 /* Polynomial.swift */; };
+		CFAC9E8520168B7B00FFF9F9 /* PolynomialOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFEF030200D262700C72ACD /* PolynomialOperation.swift */; };
+		CFAC9E8620168B7F00FFF9F9 /* Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC9E7120165BFD00FFF9F9 /* Vector.swift */; };
+		CFAC9E8720168B7F00FFF9F9 /* VectorOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC9E7320165E5100FFF9F9 /* VectorOperation.swift */; };
+		CFAC9E8820168B8200FFF9F9 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC9E7620167B0300FFF9F9 /* Matrix.swift */; };
+		CFAC9E8920168B8200FFF9F9 /* MatrixOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC9E7820167C7F00FFF9F9 /* MatrixOperation.swift */; };
+		CFAC9E8B20168CDD00FFF9F9 /* MatrixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFAC9E8A20168CDD00FFF9F9 /* MatrixTests.swift */; };
+		CFB1EB15201B85CF00DAEBBC /* Polar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB1EB14201B85CF00DAEBBC /* Polar.swift */; };
+		CFB1EB17201B85E300DAEBBC /* Spherical.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB1EB16201B85E300DAEBBC /* Spherical.swift */; };
+		CFB1EB18201BE06D00DAEBBC /* Polar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB1EB14201B85CF00DAEBBC /* Polar.swift */; };
+		CFB1EB19201BE07600DAEBBC /* Spherical.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB1EB16201B85E300DAEBBC /* Spherical.swift */; };
+		CFB1EB1B201BE41B00DAEBBC /* Cylindrical.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB1EB1A201BE41B00DAEBBC /* Cylindrical.swift */; };
+		CFB1EB1C201BE41B00DAEBBC /* Cylindrical.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB1EB1A201BE41B00DAEBBC /* Cylindrical.swift */; };
+		CFFEF031200D262700C72ACD /* PolynomialOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFEF030200D262700C72ACD /* PolynomialOperation.swift */; };
+		CFFEF032200D278A00C72ACD /* Polynomial.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2D01A52004CF270037A634 /* Polynomial.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,21 +80,66 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CF323DE7202F89F6001AB760 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1DA8F7BA49D24C11990B467B /* Pods_MathBaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathBaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		805A17179B7128FE9E7DDFA9 /* Pods_MathBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD12EE505511A02AB6C0BEC3 /* Pods-MathBaseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathBaseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathBaseUITests/Pods-MathBaseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE3610E84DCA57DD540C3643 /* Pods-MathBaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathBaseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathBaseTests/Pods-MathBaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF16EAE32040CBE2002D697B /* SubjectCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectCollectionViewCell.swift; sourceTree = "<group>"; };
+		CF16EAE52040D04E002D697B /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		CF16EAE72040D0CC002D697B /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		CF16EAE92040D426002D697B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CF16EAEC2040D65E002D697B /* SubjectCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectCollectionViewController.swift; sourceTree = "<group>"; };
 		CF2D01702004CEC00037A634 /* MathBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2D01732004CEC00037A634 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF2D01752004CEC00037A634 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF2D01752004CEC00037A634 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		CF2D01782004CEC10037A634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF2D017B2004CEC10037A634 /* MathBase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MathBase.xcdatamodel; sourceTree = "<group>"; };
 		CF2D017D2004CEC10037A634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF2D01802004CEC10037A634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF2D01822004CEC10037A634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF2D01872004CEC10037A634 /* MathBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CF2D018B2004CEC10037A634 /* MathBaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathBaseTests.swift; sourceTree = "<group>"; };
-		CF2D018D2004CEC10037A634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF2D01922004CEC10037A634 /* MathBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MathBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2D01962004CEC10037A634 /* MathBaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathBaseUITests.swift; sourceTree = "<group>"; };
 		CF2D01982004CEC10037A634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2D01A52004CF270037A634 /* Polynomial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polynomial.swift; sourceTree = "<group>"; };
+		CF2D01B32005818A0037A634 /* PolynomialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolynomialTests.swift; sourceTree = "<group>"; };
+		CF2D01B52005818A0037A634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF323DD120276B1D001AB760 /* Fraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
+		CF323DD4202843B1001AB760 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		CF616D9F204177A50045E039 /* ActionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewController.swift; sourceTree = "<group>"; };
+		CF616DA1204179580045E039 /* AddItemUIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemUIButton.swift; sourceTree = "<group>"; };
+		CF616DA520417CCE0045E039 /* ActionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionCollectionViewCell.swift; sourceTree = "<group>"; };
+		CF616DAA2041A3220045E039 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		CF9F325D2078D28100DFF7E3 /* AddEntityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEntityViewController.swift; sourceTree = "<group>"; };
+		CFAC9E7120165BFD00FFF9F9 /* Vector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector.swift; sourceTree = "<group>"; };
+		CFAC9E7320165E5100FFF9F9 /* VectorOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorOperation.swift; sourceTree = "<group>"; };
+		CFAC9E7620167B0300FFF9F9 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		CFAC9E7820167C7F00FFF9F9 /* MatrixOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixOperation.swift; sourceTree = "<group>"; };
+		CFAC9E8A20168CDD00FFF9F9 /* MatrixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixTests.swift; sourceTree = "<group>"; };
+		CFB1EB14201B85CF00DAEBBC /* Polar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Polar.swift; sourceTree = "<group>"; };
+		CFB1EB16201B85E300DAEBBC /* Spherical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spherical.swift; sourceTree = "<group>"; };
+		CFB1EB1A201BE41B00DAEBBC /* Cylindrical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cylindrical.swift; sourceTree = "<group>"; };
+		CFEED336202128FB00A55344 /* MathBase-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MathBase-Bridging-Header.h"; sourceTree = "<group>"; };
+		CFFEF030200D262700C72ACD /* PolynomialOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolynomialOperation.swift; sourceTree = "<group>"; };
+		DBBDBCFE0C03A25690420C82 /* Pods_MathBaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MathBaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CD33342D73CB9C7097FF94 /* Pods-MathBase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathBase.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathBase/Pods-MathBase.release.xcconfig"; sourceTree = "<group>"; };
+		EDAE9DF68543DC4A8CE754E2 /* Pods-MathBase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathBase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathBase/Pods-MathBase.debug.xcconfig"; sourceTree = "<group>"; };
+		EF5F0CFD51D80156D93FC734 /* Pods-MathBaseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathBaseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MathBaseUITests/Pods-MathBaseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0C3243BEBDA1174E9FB2A3 /* Pods-MathBaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MathBaseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MathBaseTests/Pods-MathBaseTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +147,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35D83B0BC5CFFFBA49D51F52 /* Pods_MathBase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15A1220FAC4E46F43962DA4B /* Pods_MathBaseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,18 +163,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E64AD935D8A8FDFCECCF91E /* Pods_MathBaseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		96472A45845094B74BB4A0E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EDAE9DF68543DC4A8CE754E2 /* Pods-MathBase.debug.xcconfig */,
+				E6CD33342D73CB9C7097FF94 /* Pods-MathBase.release.xcconfig */,
+				CE3610E84DCA57DD540C3643 /* Pods-MathBaseTests.debug.xcconfig */,
+				FA0C3243BEBDA1174E9FB2A3 /* Pods-MathBaseTests.release.xcconfig */,
+				EF5F0CFD51D80156D93FC734 /* Pods-MathBaseUITests.debug.xcconfig */,
+				BD12EE505511A02AB6C0BEC3 /* Pods-MathBaseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF16EAE12040CB8D002D697B /* Intelligence */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC9E7520167AD200FFF9F9 /* Matrix */,
+				CFAC9E7020165BDC00FFF9F9 /* Vector */,
+				CF2D01A42004CF0F0037A634 /* Polynomial */,
+				CF323DCE20276AB9001AB760 /* Math */,
+			);
+			path = Intelligence;
+			sourceTree = "<group>";
+		};
+		CF16EAE22040CBA5002D697B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CF16EAE92040D426002D697B /* Constants.swift */,
+				CF16EAE52040D04E002D697B /* Subject.swift */,
+				CF16EAE72040D0CC002D697B /* Action.swift */,
+				CF616DAA2041A3220045E039 /* CloseButton.swift */,
+				CF9F325D2078D28100DFF7E3 /* AddEntityViewController.swift */,
+				CF616D9E204177770045E039 /* Action Picker */,
+				CF16EAEB2040D537002D697B /* Homescreen */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CF16EAEB2040D537002D697B /* Homescreen */ = {
+			isa = PBXGroup;
+			children = (
+				CF16EAE32040CBE2002D697B /* SubjectCollectionViewCell.swift */,
+				CF16EAEC2040D65E002D697B /* SubjectCollectionViewController.swift */,
+				CF2D01752004CEC00037A634 /* HomeScreenViewController.swift */,
+			);
+			path = Homescreen;
+			sourceTree = "<group>";
+		};
 		CF2D01672004CEC00037A634 = {
 			isa = PBXGroup;
 			children = (
 				CF2D01722004CEC00037A634 /* MathBase */,
-				CF2D018A2004CEC10037A634 /* MathBaseTests */,
 				CF2D01952004CEC10037A634 /* MathBaseUITests */,
+				CF2D01B22005818A0037A634 /* MathBaseTests */,
+				96472A45845094B74BB4A0E5 /* Pods */,
+				D9B4ACA648E9E7A18A997EB8 /* Frameworks */,
 				CF2D01712004CEC00037A634 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,24 +243,17 @@
 		CF2D01722004CEC00037A634 /* MathBase */ = {
 			isa = PBXGroup;
 			children = (
+				CF16EAE22040CBA5002D697B /* UI */,
+				CF16EAE12040CB8D002D697B /* Intelligence */,
 				CF2D01732004CEC00037A634 /* AppDelegate.swift */,
-				CF2D01752004CEC00037A634 /* ViewController.swift */,
 				CF2D01772004CEC10037A634 /* Main.storyboard */,
 				CF2D017D2004CEC10037A634 /* Assets.xcassets */,
 				CF2D017F2004CEC10037A634 /* LaunchScreen.storyboard */,
 				CF2D01822004CEC10037A634 /* Info.plist */,
 				CF2D017A2004CEC10037A634 /* MathBase.xcdatamodeld */,
+				CFEED336202128FB00A55344 /* MathBase-Bridging-Header.h */,
 			);
 			path = MathBase;
-			sourceTree = "<group>";
-		};
-		CF2D018A2004CEC10037A634 /* MathBaseTests */ = {
-			isa = PBXGroup;
-			children = (
-				CF2D018B2004CEC10037A634 /* MathBaseTests.swift */,
-				CF2D018D2004CEC10037A634 /* Info.plist */,
-			);
-			path = MathBaseTests;
 			sourceTree = "<group>";
 		};
 		CF2D01952004CEC10037A634 /* MathBaseUITests */ = {
@@ -128,6 +265,75 @@
 			path = MathBaseUITests;
 			sourceTree = "<group>";
 		};
+		CF2D01A42004CF0F0037A634 /* Polynomial */ = {
+			isa = PBXGroup;
+			children = (
+				CF2D01A52004CF270037A634 /* Polynomial.swift */,
+				CFFEF030200D262700C72ACD /* PolynomialOperation.swift */,
+			);
+			path = Polynomial;
+			sourceTree = "<group>";
+		};
+		CF2D01B22005818A0037A634 /* MathBaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC9E8A20168CDD00FFF9F9 /* MatrixTests.swift */,
+				CF2D01B32005818A0037A634 /* PolynomialTests.swift */,
+				CF2D01B52005818A0037A634 /* Info.plist */,
+			);
+			path = MathBaseTests;
+			sourceTree = "<group>";
+		};
+		CF323DCE20276AB9001AB760 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				CF323DD120276B1D001AB760 /* Fraction.swift */,
+				CF323DD4202843B1001AB760 /* Math.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		CF616D9E204177770045E039 /* Action Picker */ = {
+			isa = PBXGroup;
+			children = (
+				CF616D9F204177A50045E039 /* ActionViewController.swift */,
+				CF616DA1204179580045E039 /* AddItemUIButton.swift */,
+				CF616DA520417CCE0045E039 /* ActionCollectionViewCell.swift */,
+			);
+			path = "Action Picker";
+			sourceTree = "<group>";
+		};
+		CFAC9E7020165BDC00FFF9F9 /* Vector */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC9E7120165BFD00FFF9F9 /* Vector.swift */,
+				CFB1EB14201B85CF00DAEBBC /* Polar.swift */,
+				CFAC9E7320165E5100FFF9F9 /* VectorOperation.swift */,
+				CFB1EB16201B85E300DAEBBC /* Spherical.swift */,
+				CFB1EB1A201BE41B00DAEBBC /* Cylindrical.swift */,
+			);
+			path = Vector;
+			sourceTree = "<group>";
+		};
+		CFAC9E7520167AD200FFF9F9 /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				CFAC9E7620167B0300FFF9F9 /* Matrix.swift */,
+				CFAC9E7820167C7F00FFF9F9 /* MatrixOperation.swift */,
+			);
+			path = Matrix;
+			sourceTree = "<group>";
+		};
+		D9B4ACA648E9E7A18A997EB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				805A17179B7128FE9E7DDFA9 /* Pods_MathBase.framework */,
+				1DA8F7BA49D24C11990B467B /* Pods_MathBaseTests.framework */,
+				DBBDBCFE0C03A25690420C82 /* Pods_MathBaseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +341,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF2D019B2004CEC10037A634 /* Build configuration list for PBXNativeTarget "MathBase" */;
 			buildPhases = (
+				0339B9773CAF17D5B2DE2C19 /* [CP] Check Pods Manifest.lock */,
 				CF2D016C2004CEC00037A634 /* Sources */,
 				CF2D016D2004CEC00037A634 /* Frameworks */,
 				CF2D016E2004CEC00037A634 /* Resources */,
+				71FC6B72DD76A4E274AD65F3 /* [CP] Embed Pods Frameworks */,
+				771EDC8238BFB95CD1011A0E /* [CP] Copy Pods Resources */,
+				CF323DE7202F89F6001AB760 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -152,9 +362,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF2D019E2004CEC10037A634 /* Build configuration list for PBXNativeTarget "MathBaseTests" */;
 			buildPhases = (
+				9EC72FCA757C28ECDE973F04 /* [CP] Check Pods Manifest.lock */,
 				CF2D01832004CEC10037A634 /* Sources */,
 				CF2D01842004CEC10037A634 /* Frameworks */,
 				CF2D01852004CEC10037A634 /* Resources */,
+				D7C7ED31FCD05BC5D1BDF08C /* [CP] Embed Pods Frameworks */,
+				549DA58CE6C21F1D4722998C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +383,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CF2D01A12004CEC10037A634 /* Build configuration list for PBXNativeTarget "MathBaseUITests" */;
 			buildPhases = (
+				8B9BAAD3D1D6A5F0410962D1 /* [CP] Check Pods Manifest.lock */,
 				CF2D018E2004CEC10037A634 /* Sources */,
 				CF2D018F2004CEC10037A634 /* Frameworks */,
 				CF2D01902004CEC10037A634 /* Resources */,
+				B838003B332ADB29A46E0ABD /* [CP] Embed Pods Frameworks */,
+				09EF9FF33B30EAE385C4AA66 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +412,7 @@
 				TargetAttributes = {
 					CF2D016F2004CEC00037A634 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					CF2D01862004CEC10037A634 = {
@@ -257,14 +474,185 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0339B9773CAF17D5B2DE2C19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathBase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		09EF9FF33B30EAE385C4AA66 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathBaseUITests/Pods-MathBaseUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		549DA58CE6C21F1D4722998C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathBaseTests/Pods-MathBaseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71FC6B72DD76A4E274AD65F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MathBase/Pods-MathBase-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/iosMath/iosMath.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iosMath.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathBase/Pods-MathBase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		771EDC8238BFB95CD1011A0E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathBase/Pods-MathBase-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B9BAAD3D1D6A5F0410962D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathBaseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EC72FCA757C28ECDE973F04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MathBaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B838003B332ADB29A46E0ABD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathBaseUITests/Pods-MathBaseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7C7ED31FCD05BC5D1BDF08C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MathBaseTests/Pods-MathBaseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CF2D016C2004CEC00037A634 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF2D01762004CEC00037A634 /* ViewController.swift in Sources */,
+				CF2D01762004CEC00037A634 /* HomeScreenViewController.swift in Sources */,
+				CFFEF032200D278A00C72ACD /* Polynomial.swift in Sources */,
+				CFB1EB15201B85CF00DAEBBC /* Polar.swift in Sources */,
+				CF323DD5202843B1001AB760 /* Math.swift in Sources */,
+				CFB1EB17201B85E300DAEBBC /* Spherical.swift in Sources */,
+				CFAC9E7720167B0300FFF9F9 /* Matrix.swift in Sources */,
+				CF616DA0204177A50045E039 /* ActionViewController.swift in Sources */,
+				CF323DD220276B1D001AB760 /* Fraction.swift in Sources */,
 				CF2D01742004CEC00037A634 /* AppDelegate.swift in Sources */,
+				CF16EAE62040D04E002D697B /* Subject.swift in Sources */,
+				CF616DA620417CCE0045E039 /* ActionCollectionViewCell.swift in Sources */,
+				CF616DAB2041A3220045E039 /* CloseButton.swift in Sources */,
+				CF16EAE82040D0CC002D697B /* Action.swift in Sources */,
+				CFAC9E7220165BFD00FFF9F9 /* Vector.swift in Sources */,
+				CFB1EB1B201BE41B00DAEBBC /* Cylindrical.swift in Sources */,
+				CFAC9E7420165E5100FFF9F9 /* VectorOperation.swift in Sources */,
+				CFAC9E7920167C7F00FFF9F9 /* MatrixOperation.swift in Sources */,
+				CF16EAE42040CBE2002D697B /* SubjectCollectionViewCell.swift in Sources */,
+				CFFEF031200D262700C72ACD /* PolynomialOperation.swift in Sources */,
 				CF2D017C2004CEC10037A634 /* MathBase.xcdatamodeld in Sources */,
+				CF616DA2204179580045E039 /* AddItemUIButton.swift in Sources */,
+				CF9F325E2078D28100DFF7E3 /* AddEntityViewController.swift in Sources */,
+				CF16EAED2040D65E002D697B /* SubjectCollectionViewController.swift in Sources */,
+				CF16EAEA2040D426002D697B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +660,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF2D018C2004CEC10037A634 /* MathBaseTests.swift in Sources */,
+				CFAC9E8820168B8200FFF9F9 /* Matrix.swift in Sources */,
+				CF616D9D20415E980045E039 /* HomeScreenViewController.swift in Sources */,
+				CF16EAF22040D72E002D697B /* SubjectCollectionViewController.swift in Sources */,
+				CF16EAEF2040D726002D697B /* Subject.swift in Sources */,
+				CF323DD7202F261D001AB760 /* Math.swift in Sources */,
+				CFB1EB19201BE07600DAEBBC /* Spherical.swift in Sources */,
+				CF616DA720418ED00045E039 /* ActionViewController.swift in Sources */,
+				CFAC9E8520168B7B00FFF9F9 /* PolynomialOperation.swift in Sources */,
+				CF16EAF02040D72A002D697B /* Action.swift in Sources */,
+				CF323DD62028CAE4001AB760 /* Fraction.swift in Sources */,
+				CF616DA920418ED60045E039 /* ActionCollectionViewCell.swift in Sources */,
+				CF616DAC2041A6DD0045E039 /* CloseButton.swift in Sources */,
+				CFAC9E8620168B7F00FFF9F9 /* Vector.swift in Sources */,
+				CFAC9E8420168B7800FFF9F9 /* Polynomial.swift in Sources */,
+				CFAC9E8B20168CDD00FFF9F9 /* MatrixTests.swift in Sources */,
+				CFAC9E8720168B7F00FFF9F9 /* VectorOperation.swift in Sources */,
+				CFB1EB1C201BE41B00DAEBBC /* Cylindrical.swift in Sources */,
+				CFAC9E8920168B8200FFF9F9 /* MatrixOperation.swift in Sources */,
+				CF16EAEE2040D724002D697B /* Constants.swift in Sources */,
+				CF16EAF12040D72C002D697B /* SubjectCollectionViewCell.swift in Sources */,
+				CF616DA820418ED40045E039 /* AddItemUIButton.swift in Sources */,
+				CFB1EB18201BE06D00DAEBBC /* Polar.swift in Sources */,
+				CFAC9E8220168B4F00FFF9F9 /* PolynomialTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,14 +838,18 @@
 		};
 		CF2D019C2004CEC10037A634 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDAE9DF68543DC4A8CE754E2 /* Pods-MathBase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DQ5H66T786;
 				INFOPLIST_FILE = MathBase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Maxsoft.MathBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MathBase/MathBase-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,14 +857,17 @@
 		};
 		CF2D019D2004CEC10037A634 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6CD33342D73CB9C7097FF94 /* Pods-MathBase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DQ5H66T786;
 				INFOPLIST_FILE = MathBase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Maxsoft.MathBase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MathBase/MathBase-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,6 +875,7 @@
 		};
 		CF2D019F2004CEC10037A634 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE3610E84DCA57DD540C3643 /* Pods-MathBaseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +893,7 @@
 		};
 		CF2D01A02004CEC10037A634 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA0C3243BEBDA1174E9FB2A3 /* Pods-MathBaseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -492,6 +911,7 @@
 		};
 		CF2D01A22004CEC10037A634 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF5F0CFD51D80156D93FC734 /* Pods-MathBaseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -508,6 +928,7 @@
 		};
 		CF2D01A32004CEC10037A634 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD12EE505511A02AB6C0BEC3 /* Pods-MathBaseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
